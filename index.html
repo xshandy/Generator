@@ -6,22 +6,43 @@
     <link rel="stylesheet" href="src/style.css" />
     <title>AI generator</title>
   </head>
+
   <body>
-    <head>
-      <h1>AI Recipe Generator</h1>
-    </head>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/xshandy" target="_blank">Shandy Shek</a> and
-      is
-      <a href="https://github.com/xshandy/Generator" target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and is
-      <a href="https://ai-generator-ss.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >.
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Recipe Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Choose a cuisine"
+            required
+            autofocus
+            autocomplete="off"
+            class="cuisine"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="recipe">
+          The recipe will go here
+          <br />
+          Spag bol
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/xshandy" target="_blank">Shandy Shek</a> and
+        is
+        <a href="https://github.com/xshandy/Generator" target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and is
+        <a href="https://ai-generator-ss.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
