@@ -16,6 +16,8 @@ h1 {
   font-size: 38px;
   line-height: 1.5;
   text-align: center;
+  color: rgb(52, 186, 220);
+  font-weight: 900;
 }
 
 form {
@@ -39,11 +41,13 @@ form {
 .submit-button {
   margin-left: 12px;
   background-color: rgb(52, 186, 220);
+  color: white;
   border: none;
   width: 100px;
   font-size: 16px;
   border-radius: 30px;
   padding: 14px 24px;
+  cursor: pointer;
 }
 
 .recipe {
@@ -53,6 +57,10 @@ form {
   padding: 20px;
   line-height: 24px;
   border-radius: 12px;
+}
+
+.hidden {
+  display: none;
 }
 
 footer {
